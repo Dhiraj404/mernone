@@ -4,10 +4,6 @@ const router = express.Router();
 require('../db/conn');
 const User = require('../model/userSchema');
 
-router.get('/', (req, res) => {
-
-    res.send('hello from server router js')
-});
 
 
 // Async-Await
